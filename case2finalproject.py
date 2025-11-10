@@ -23,6 +23,6 @@ def snooker_queue(balls):
 
 balls_input = input("Enter the potted ball colours separated by spaces: ")
 balls_list = balls_input.split()
-print("Total Score:", snooker_queue(balls_list))
+print("Total Score is:", snooker_queue(balls_list))
 
 
