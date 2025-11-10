@@ -23,5 +23,5 @@ def snooker_stack(balls):
 
 balls_input = input("Enter the potted ball colours separated by spaces: ")
 balls_list = balls_input.split()
-print("Total Score:", snooker_stack(balls_list))
+print("Total Score is:", snooker_stack(balls_list))
 
